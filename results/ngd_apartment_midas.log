@@ -1,0 +1,81 @@
+
+ORB-SLAM3 Copyright (C) 2017-2020 Carlos Campos, Richard Elvira, Juan J. Gómez, José M.M. Montiel and Juan D. Tardós, University of Zaragoza.
+ORB-SLAM2 Copyright (C) 2014-2016 Raúl Mur-Artal, José M.M. Montiel and Juan D. Tardós, University of Zaragoza.
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to redistribute it
+under certain conditions. See LICENSE.txt.
+
+Input sensor was set to: RGB-D
+Loading settings from /home/andrey/datasets/apartment_midas.yaml
+	-Loaded camera 1
+Camera.newHeight optional parameter does not exist...
+Camera.newWidth optional parameter does not exist...
+	-Loaded image info
+	-Loaded RGB-D calibration
+	-Loaded ORB settings
+Viewer.imageViewScale optional parameter does not exist...
+	-Loaded viewer settings
+System.LoadAtlasFromFile optional parameter does not exist...
+System.SaveAtlasToFile optional parameter does not exist...
+	-Loaded Atlas settings
+System.thFarPoints optional parameter does not exist...
+	-Loaded misc parameters
+----------------------------------
+SLAM settings: 
+	-Camera 1 parameters (Pinhole): [ 1000 1000 960 540 ]
+	-Camera 1 distortion parameters: [  0 0 0 0 0 ]
+	-Original image size: [ 1920 , 1080 ]
+	-Current image size: [ 1920 , 1080 ]
+	-Sequence FPS: 30
+	-RGB-D depth map factor: 6553.5
+	-Features per image: 1000
+	-ORB scale factor: 1.2
+	-ORB number of scales: 8
+	-Initial FAST threshold: 20
+	-Min FAST threshold: 7
+
+
+Loading ORB Vocabulary. This could take a while...
+Vocabulary loaded!
+
+Initialization of Atlas from scratch 
+Creation of new map with id: 0
+Creation of new map with last KF id: 0
+Seq. Name: 
+There are 1 cameras in the atlas
+Camera 0 is pinhole
+Net use yolo-fastest
+
+-------
+Start processing sequence ...
+Images in the sequence: 341
+
+DEBUG TrackRGBD: depth=[1920 x 1080] type=2 rgb=[1920 x 1080]
+First KF:0; Map init KF:0
+New Map created with 629 points
+Average processing time of GrabImageRGBD(): 119.84ms
+Frame 0 end
+Starting the Viewer
+DEBUG TrackRGBD: depth=[1920 x 1080] type=2 rgb=[1920 x 1080]
+Average processing time of GrabImageRGBD(): 97.9802ms
+Frame 1 end
+DEBUG TrackRGBD: depth=[1920 x 1080] type=2 rgb=[1920 x 1080]
+Average processing time of GrabImageRGBD(): 98.8262ms
+Frame 2 end
+DEBUG TrackRGBD: depth=[1920 x 1080] type=2 rgb=[1920 x 1080]
+Fail to track local map!!!!!!!!!!!!!!!
+Average processing time of GrabImageRGBD(): 93.3243ms
+Frame 3 end
+DEBUG TrackRGBD: depth=[1920 x 1080] type=2 rgb=[1920 x 1080]
+LM: Active map reset recieved
+LM: Active map reset, waiting...
+LM: Reseting current map in Local Mapping...
+LM: End reseting Local Mapping...
+LM: Reset free the mutex
+LM: Active map reset, Done!!!
+mnFirstFrameId = 0
+mnInitialFrameId = 0
+3 Frames set to lost
+terminate called after throwing an instance of 'cv::Exception'
+  what():  OpenCV(4.10.0) ./modules/video/src/lkpyramid.cpp:1260: error: (-215:Assertion failed) (npoints = prevPtsMat.checkVector(2, CV_32F, true)) >= 0 in function 'calc'
+

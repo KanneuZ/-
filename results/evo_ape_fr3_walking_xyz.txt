@@ -1,0 +1,34 @@
+--------------------------------------------------------------------------------
+Loaded 2884 stamps and poses from: datasets/fr3_walking_xyz/groundtruth.txt
+Loaded 827 stamps and poses from: results/traj_fr3_walking_xyz.txt
+--------------------------------------------------------------------------------
+Synchronizing trajectories (nearest_time method)...
+Timestamps are sorted, using binary search for matching.
+Found 827 of max. 827 possible matching timestamps between...
+	datasets/fr3_walking_xyz/groundtruth.txt
+and:	results/traj_fr3_walking_xyz.txt
+..with max. time diff.: 0.1 (s) and time offset: 0.0 (s).
+--------------------------------------------------------------------------------
+Aligning using Umeyama's method...
+Rotation of alignment:
+[[ 0.99591276  0.08168514 -0.03853986]
+ [ 0.05312725 -0.18471962  0.98135425]
+ [ 0.07304299 -0.97939073 -0.18830434]]
+Translation of alignment:
+[-0.69747879 -3.12325036  1.42734251]
+Scale correction: 1.0
+--------------------------------------------------------------------------------
+Compared 827 absolute pose pairs.
+Calculating APE for translation part pose relation...
+--------------------------------------------------------------------------------
+APE w.r.t. translation part (m)
+(with SE(3) Umeyama alignment)
+
+       max	0.048613
+      mean	0.013589
+    median	0.011825
+       min	0.001557
+      rmse	0.015640
+       sse	0.202292
+       std	0.007743
+

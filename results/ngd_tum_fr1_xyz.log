@@ -1,0 +1,109 @@
+
+ORB-SLAM3 Copyright (C) 2017-2020 Carlos Campos, Richard Elvira, Juan J. Gómez, José M.M. Montiel and Juan D. Tardós, University of Zaragoza.
+ORB-SLAM2 Copyright (C) 2014-2016 Raúl Mur-Artal, José M.M. Montiel and Juan D. Tardós, University of Zaragoza.
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to redistribute it
+under certain conditions. See LICENSE.txt.
+
+Input sensor was set to: RGB-D
+Loading settings from ./Examples/RGB-D/TUM1.yaml
+	-Loaded camera 1
+Camera.newHeight optional parameter does not exist...
+Camera.newWidth optional parameter does not exist...
+	-Loaded image info
+	-Loaded RGB-D calibration
+	-Loaded ORB settings
+Viewer.imageViewScale optional parameter does not exist...
+	-Loaded viewer settings
+System.LoadAtlasFromFile optional parameter does not exist...
+System.SaveAtlasToFile optional parameter does not exist...
+	-Loaded Atlas settings
+System.thFarPoints optional parameter does not exist...
+	-Loaded misc parameters
+----------------------------------
+SLAM settings: 
+	-Camera 1 parameters (Pinhole): [ 517.306 516.469 318.643 255.314 ]
+	-Camera 1 distortion parameters: [  0.262383 -0.953104 -0.005358 0.002628 1.16331 ]
+	-Original image size: [ 640 , 480 ]
+	-Current image size: [ 640 , 480 ]
+	-Sequence FPS: 30
+	-RGB-D depth map factor: 5000
+	-Features per image: 1000
+	-ORB scale factor: 1.2
+	-ORB number of scales: 8
+	-Initial FAST threshold: 20
+	-Min FAST threshold: 7
+
+
+Loading ORB Vocabulary. This could take a while...
+Vocabulary loaded!
+
+Initialization of Atlas from scratch 
+Creation of new map with id: 0
+Creation of new map with last KF id: 0
+Seq. Name: 
+There are 1 cameras in the atlas
+Camera 0 is pinhole
+Net use yolo-fastest
+
+-------
+Start processing sequence ...
+Images in the sequence: 798
+
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+First KF:0; Map init KF:0
+New Map created with 844 points
+Average processing time of GrabImageRGBD(): 59.6193ms
+Frame 0 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 41.4209ms
+Frame 1 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 33.4438ms
+Frame 2 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Not enough matches for SearchByOpticalFlow() !!
+Average processing time of GrabImageRGBD(): 30.036ms
+Frame 3 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Not enough matches for SearchByOpticalFlow() !!
+Average processing time of GrabImageRGBD(): 27.9783ms
+Frame 4 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 27.2035ms
+Frame 5 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 24.3843ms
+Frame 6 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 23.3914ms
+Frame 7 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 21.8132ms
+Frame 8 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 20.1266ms
+Frame 9 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 18.7238ms
+Frame 10 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Starting the Viewer
+Average processing time of GrabImageRGBD(): 18.9332ms
+Frame 11 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 18.2557ms
+Frame 12 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Fail to track local map!!!!!!!!!!!!!!!
+Average processing time of GrabImageRGBD(): 18.4585ms
+Frame 13 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Not enough matches for SearchByOpticalFlow() !!
+Fail to track local map!!!!!!!!!!!!!!!
+Average processing time of GrabImageRGBD(): 19.1405ms
+Frame 14 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+terminate called after throwing an instance of 'cv::Exception'
+  what():  OpenCV(4.10.0) ./modules/video/src/lkpyramid.cpp:1260: error: (-215:Assertion failed) (npoints = prevPtsMat.checkVector(2, CV_32F, true)) >= 0 in function 'calc'
+

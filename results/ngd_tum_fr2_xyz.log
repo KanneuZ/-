@@ -1,0 +1,2122 @@
+
+ORB-SLAM3 Copyright (C) 2017-2020 Carlos Campos, Richard Elvira, Juan J. Gómez, José M.M. Montiel and Juan D. Tardós, University of Zaragoza.
+ORB-SLAM2 Copyright (C) 2014-2016 Raúl Mur-Artal, José M.M. Montiel and Juan D. Tardós, University of Zaragoza.
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to redistribute it
+under certain conditions. See LICENSE.txt.
+
+Input sensor was set to: RGB-D
+Loading settings from ./Examples/RGB-D/TUM2.yaml
+	-Loaded camera 1
+Camera.newHeight optional parameter does not exist...
+Camera.newWidth optional parameter does not exist...
+	-Loaded image info
+	-Loaded RGB-D calibration
+	-Loaded ORB settings
+Viewer.imageViewScale optional parameter does not exist...
+	-Loaded viewer settings
+System.LoadAtlasFromFile optional parameter does not exist...
+System.SaveAtlasToFile optional parameter does not exist...
+	-Loaded Atlas settings
+System.thFarPoints optional parameter does not exist...
+	-Loaded misc parameters
+----------------------------------
+SLAM settings: 
+	-Camera 1 parameters (Pinhole): [ 520.909 521.007 325.141 249.702 ]
+	-Camera 1 distortion parameters: [  0.231222 -0.784899 -0.003257 -0.000105 0.917205 ]
+	-Original image size: [ 640 , 480 ]
+	-Current image size: [ 640 , 480 ]
+	-Sequence FPS: 30
+	-RGB-D depth map factor: 5208
+	-Features per image: 1000
+	-ORB scale factor: 1.2
+	-ORB number of scales: 8
+	-Initial FAST threshold: 20
+	-Min FAST threshold: 7
+
+
+Loading ORB Vocabulary. This could take a while...
+Vocabulary loaded!
+
+Initialization of Atlas from scratch 
+Creation of new map with id: 0
+Creation of new map with last KF id: 0
+Seq. Name: 
+There are 1 cameras in the atlas
+Camera 0 is pinhole
+Net use yolo-fastest
+
+-------
+Start processing sequence ...
+Images in the sequence: 3665
+
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+First KF:0; Map init KF:0
+New Map created with 844 points
+Average processing time of GrabImageRGBD(): 64.8832ms
+Frame 0 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 46.6942ms
+Frame 1 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 39.6174ms
+Frame 2 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 31.9555ms
+Frame 3 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 29.1238ms
+Frame 4 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 27.2229ms
+Frame 5 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 24.8151ms
+Frame 6 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 22.993ms
+Frame 7 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 22.3519ms
+Frame 8 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 20.8222ms
+Frame 9 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 19.4127ms
+Frame 10 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 18.333ms
+Frame 11 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 17.4006ms
+Frame 12 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 16.7577ms
+Frame 13 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 16.3676ms
+Frame 14 end
+Starting the Viewer
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 15.6512ms
+Frame 15 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 15.5998ms
+Frame 16 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 15.1832ms
+Frame 17 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 14.6745ms
+Frame 18 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 14.9006ms
+Frame 19 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 14.5556ms
+Frame 20 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 14.4506ms
+Frame 21 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 14.2913ms
+Frame 22 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 13.9791ms
+Frame 23 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 13.7791ms
+Frame 24 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 13.8062ms
+Frame 25 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 13.5068ms
+Frame 26 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 13.3265ms
+Frame 27 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 13.0812ms
+Frame 28 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 12.7911ms
+Frame 29 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 12.5412ms
+Frame 30 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 12.3858ms
+Frame 31 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 12.201ms
+Frame 32 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 12.1145ms
+Frame 33 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 12.0209ms
+Frame 34 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 11.9455ms
+Frame 35 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 11.8045ms
+Frame 36 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 11.7299ms
+Frame 37 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 11.7575ms
+Frame 38 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 11.6195ms
+Frame 39 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 11.5167ms
+Frame 40 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 11.5299ms
+Frame 41 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 11.4032ms
+Frame 42 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 11.3538ms
+Frame 43 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 11.2501ms
+Frame 44 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 11.1207ms
+Frame 45 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 11.0183ms
+Frame 46 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 10.9786ms
+Frame 47 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 10.8656ms
+Frame 48 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 11.2983ms
+Frame 49 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 11.1672ms
+Frame 50 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 11.0309ms
+Frame 51 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 10.909ms
+Frame 52 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 10.8069ms
+Frame 53 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 10.7276ms
+Frame 54 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 10.7319ms
+Frame 55 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 10.6221ms
+Frame 56 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 10.636ms
+Frame 57 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 10.5603ms
+Frame 58 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 10.4557ms
+Frame 59 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 10.4613ms
+Frame 60 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 10.3694ms
+Frame 61 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 10.3908ms
+Frame 62 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 10.33ms
+Frame 63 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 10.2596ms
+Frame 64 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 10.2166ms
+Frame 65 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 10.2153ms
+Frame 66 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 10.1239ms
+Frame 67 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 10.0358ms
+Frame 68 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.97725ms
+Frame 69 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.89639ms
+Frame 70 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.87095ms
+Frame 71 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.80195ms
+Frame 72 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.98696ms
+Frame 73 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.96772ms
+Frame 74 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.91991ms
+Frame 75 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.88167ms
+Frame 76 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.84487ms
+Frame 77 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.77595ms
+Frame 78 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.70978ms
+Frame 79 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.67453ms
+Frame 80 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.6169ms
+Frame 81 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.56458ms
+Frame 82 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.5596ms
+Frame 83 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.51226ms
+Frame 84 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.47273ms
+Frame 85 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.44399ms
+Frame 86 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.4175ms
+Frame 87 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.39492ms
+Frame 88 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.45496ms
+Frame 89 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.40708ms
+Frame 90 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.35545ms
+Frame 91 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.30575ms
+Frame 92 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.24927ms
+Frame 93 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.22179ms
+Frame 94 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.20436ms
+Frame 95 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.18284ms
+Frame 96 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.17516ms
+Frame 97 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.14368ms
+Frame 98 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.10984ms
+Frame 99 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.06062ms
+Frame 100 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.04936ms
+Frame 101 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.01203ms
+Frame 102 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.04149ms
+Frame 103 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.2632ms
+Frame 104 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.22371ms
+Frame 105 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.44822ms
+Frame 106 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.48412ms
+Frame 107 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.45754ms
+Frame 108 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.42757ms
+Frame 109 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.40658ms
+Frame 110 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.36086ms
+Frame 111 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.38747ms
+Frame 112 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.35ms
+Frame 113 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.30649ms
+Frame 114 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.28143ms
+Frame 115 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.26158ms
+Frame 116 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.22463ms
+Frame 117 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.18746ms
+Frame 118 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.15583ms
+Frame 119 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.14307ms
+Frame 120 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.11292ms
+Frame 121 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.08741ms
+Frame 122 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.07468ms
+Frame 123 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.04812ms
+Frame 124 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.27439ms
+Frame 125 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.25114ms
+Frame 126 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.23126ms
+Frame 127 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.21997ms
+Frame 128 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.18321ms
+Frame 129 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.32998ms
+Frame 130 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.34632ms
+Frame 131 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.31411ms
+Frame 132 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.30958ms
+Frame 133 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.31349ms
+Frame 134 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.28535ms
+Frame 135 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.28549ms
+Frame 136 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.26791ms
+Frame 137 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.25874ms
+Frame 138 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.27114ms
+Frame 139 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.25935ms
+Frame 140 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.24279ms
+Frame 141 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.23294ms
+Frame 142 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.22968ms
+Frame 143 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.19527ms
+Frame 144 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.18742ms
+Frame 145 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.16654ms
+Frame 146 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.14609ms
+Frame 147 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.12218ms
+Frame 148 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.11302ms
+Frame 149 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.09416ms
+Frame 150 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.07287ms
+Frame 151 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.05081ms
+Frame 152 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.04723ms
+Frame 153 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.02814ms
+Frame 154 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.02116ms
+Frame 155 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.02781ms
+Frame 156 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.00666ms
+Frame 157 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.97984ms
+Frame 158 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.96868ms
+Frame 159 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.94129ms
+Frame 160 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.06186ms
+Frame 161 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.03887ms
+Frame 162 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.02225ms
+Frame 163 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.01687ms
+Frame 164 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.00564ms
+Frame 165 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.97656ms
+Frame 166 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.95946ms
+Frame 167 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.93324ms
+Frame 168 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.90544ms
+Frame 169 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.87587ms
+Frame 170 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.87369ms
+Frame 171 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.98645ms
+Frame 172 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.97314ms
+Frame 173 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.96614ms
+Frame 174 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.97967ms
+Frame 175 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.95968ms
+Frame 176 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.93842ms
+Frame 177 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.92834ms
+Frame 178 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.90136ms
+Frame 179 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.87167ms
+Frame 180 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.89155ms
+Frame 181 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.86871ms
+Frame 182 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.02666ms
+Frame 183 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.01701ms
+Frame 184 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.03758ms
+Frame 185 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.05164ms
+Frame 186 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.03004ms
+Frame 187 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.01763ms
+Frame 188 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.00759ms
+Frame 189 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.03375ms
+Frame 190 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.01654ms
+Frame 191 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.04901ms
+Frame 192 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.03211ms
+Frame 193 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.01635ms
+Frame 194 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.99258ms
+Frame 195 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.98184ms
+Frame 196 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.9704ms
+Frame 197 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.95738ms
+Frame 198 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.93841ms
+Frame 199 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.91495ms
+Frame 200 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.88903ms
+Frame 201 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.86551ms
+Frame 202 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.8633ms
+Frame 203 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.84048ms
+Frame 204 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.8159ms
+Frame 205 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.80087ms
+Frame 206 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.77646ms
+Frame 207 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.75348ms
+Frame 208 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.73418ms
+Frame 209 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.72367ms
+Frame 210 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.70709ms
+Frame 211 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.70771ms
+Frame 212 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.69338ms
+Frame 213 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.80297ms
+Frame 214 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.7859ms
+Frame 215 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.77671ms
+Frame 216 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.76192ms
+Frame 217 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.76237ms
+Frame 218 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.74013ms
+Frame 219 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.73802ms
+Frame 220 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.71651ms
+Frame 221 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.69328ms
+Frame 222 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.67311ms
+Frame 223 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.65306ms
+Frame 224 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.64724ms
+Frame 225 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.63802ms
+Frame 226 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.63547ms
+Frame 227 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.62112ms
+Frame 228 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.63834ms
+Frame 229 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.64764ms
+Frame 230 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.6282ms
+Frame 231 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.62608ms
+Frame 232 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.60628ms
+Frame 233 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.63049ms
+Frame 234 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.62797ms
+Frame 235 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.71779ms
+Frame 236 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.7295ms
+Frame 237 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.7109ms
+Frame 238 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.81826ms
+Frame 239 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.81964ms
+Frame 240 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.80726ms
+Frame 241 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.78844ms
+Frame 242 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.77561ms
+Frame 243 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.7697ms
+Frame 244 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.75133ms
+Frame 245 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.8021ms
+Frame 246 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.79654ms
+Frame 247 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.789ms
+Frame 248 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.78ms
+Frame 249 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.76521ms
+Frame 250 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.7725ms
+Frame 251 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.76442ms
+Frame 252 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.76316ms
+Frame 253 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.77761ms
+Frame 254 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.78229ms
+Frame 255 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.76548ms
+Frame 256 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.75782ms
+Frame 257 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.84831ms
+Frame 258 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.8635ms
+Frame 259 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.86029ms
+Frame 260 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.87319ms
+Frame 261 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.86024ms
+Frame 262 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.8484ms
+Frame 263 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.84674ms
+Frame 264 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.83019ms
+Frame 265 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.8606ms
+Frame 266 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.86448ms
+Frame 267 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.85297ms
+Frame 268 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.84703ms
+Frame 269 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.84726ms
+Frame 270 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.83647ms
+Frame 271 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.84051ms
+Frame 272 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.83689ms
+Frame 273 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.82316ms
+Frame 274 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.8088ms
+Frame 275 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.81348ms
+Frame 276 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.80198ms
+Frame 277 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.79845ms
+Frame 278 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.78517ms
+Frame 279 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.77844ms
+Frame 280 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.89344ms
+Frame 281 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.88884ms
+Frame 282 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.91339ms
+Frame 283 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.89977ms
+Frame 284 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.88612ms
+Frame 285 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.89983ms
+Frame 286 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.00399ms
+Frame 287 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.99269ms
+Frame 288 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.9817ms
+Frame 289 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.97782ms
+Frame 290 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.98544ms
+Frame 291 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.97776ms
+Frame 292 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.97611ms
+Frame 293 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.97936ms
+Frame 294 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.96648ms
+Frame 295 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.95734ms
+Frame 296 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.9492ms
+Frame 297 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.01742ms
+Frame 298 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.00615ms
+Frame 299 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.99584ms
+Frame 300 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.99954ms
+Frame 301 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.98896ms
+Frame 302 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.99747ms
+Frame 303 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.99949ms
+Frame 304 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.00179ms
+Frame 305 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.99807ms
+Frame 306 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.99587ms
+Frame 307 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.98314ms
+Frame 308 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.9799ms
+Frame 309 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.98291ms
+Frame 310 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.97323ms
+Frame 311 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.96164ms
+Frame 312 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.96291ms
+Frame 313 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.95374ms
+Frame 314 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.94482ms
+Frame 315 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.93986ms
+Frame 316 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.93221ms
+Frame 317 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.91709ms
+Frame 318 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.93239ms
+Frame 319 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.92245ms
+Frame 320 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.93326ms
+Frame 321 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.923ms
+Frame 322 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.91151ms
+Frame 323 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.91265ms
+Frame 324 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.89933ms
+Frame 325 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.89142ms
+Frame 326 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.87863ms
+Frame 327 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.8712ms
+Frame 328 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.8599ms
+Frame 329 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.87134ms
+Frame 330 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.97065ms
+Frame 331 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.97965ms
+Frame 332 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.96574ms
+Frame 333 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.96921ms
+Frame 334 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.96159ms
+Frame 335 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.95072ms
+Frame 336 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.95416ms
+Frame 337 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.94881ms
+Frame 338 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.94007ms
+Frame 339 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.92838ms
+Frame 340 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.93475ms
+Frame 341 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.93137ms
+Frame 342 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.91812ms
+Frame 343 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.90489ms
+Frame 344 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.90021ms
+Frame 345 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.88658ms
+Frame 346 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.88712ms
+Frame 347 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.87615ms
+Frame 348 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.87321ms
+Frame 349 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.85937ms
+Frame 350 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.86193ms
+Frame 351 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.85526ms
+Frame 352 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.86303ms
+Frame 353 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.87054ms
+Frame 354 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.86754ms
+Frame 355 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.85379ms
+Frame 356 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.84626ms
+Frame 357 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.83288ms
+Frame 358 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.83779ms
+Frame 359 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.82609ms
+Frame 360 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.89627ms
+Frame 361 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.89446ms
+Frame 362 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.90406ms
+Frame 363 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.91172ms
+Frame 364 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.90356ms
+Frame 365 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.90651ms
+Frame 366 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.89934ms
+Frame 367 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.91525ms
+Frame 368 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.90672ms
+Frame 369 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.89851ms
+Frame 370 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.92111ms
+Frame 371 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.91372ms
+Frame 372 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.90566ms
+Frame 373 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.90234ms
+Frame 374 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.88978ms
+Frame 375 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.87657ms
+Frame 376 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.90334ms
+Frame 377 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.90052ms
+Frame 378 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.90211ms
+Frame 379 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.90096ms
+Frame 380 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.89806ms
+Frame 381 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.91057ms
+Frame 382 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.90945ms
+Frame 383 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.97542ms
+Frame 384 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.96799ms
+Frame 385 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.9672ms
+Frame 386 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.95798ms
+Frame 387 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.94833ms
+Frame 388 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.97687ms
+Frame 389 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.96509ms
+Frame 390 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.95294ms
+Frame 391 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.95033ms
+Frame 392 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.94485ms
+Frame 393 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.01781ms
+Frame 394 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.05035ms
+Frame 395 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.04788ms
+Frame 396 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.04735ms
+Frame 397 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.05835ms
+Frame 398 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.06128ms
+Frame 399 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.0675ms
+Frame 400 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.0648ms
+Frame 401 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.06283ms
+Frame 402 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.05174ms
+Frame 403 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.1263ms
+Frame 404 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.12813ms
+Frame 405 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.12516ms
+Frame 406 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.11609ms
+Frame 407 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.10529ms
+Frame 408 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.09401ms
+Frame 409 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.09257ms
+Frame 410 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.08104ms
+Frame 411 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.07372ms
+Frame 412 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.06443ms
+Frame 413 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.06981ms
+Frame 414 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.0671ms
+Frame 415 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.0638ms
+Frame 416 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.05702ms
+Frame 417 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.0511ms
+Frame 418 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.0387ms
+Frame 419 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.03273ms
+Frame 420 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.03558ms
+Frame 421 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.03068ms
+Frame 422 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.02488ms
+Frame 423 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.03015ms
+Frame 424 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.01989ms
+Frame 425 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.0097ms
+Frame 426 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.02784ms
+Frame 427 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.02306ms
+Frame 428 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.01405ms
+Frame 429 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.00739ms
+Frame 430 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.00426ms
+Frame 431 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.00814ms
+Frame 432 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.05394ms
+Frame 433 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.06242ms
+Frame 434 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.074ms
+Frame 435 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.06825ms
+Frame 436 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.0578ms
+Frame 437 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.05194ms
+Frame 438 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.04196ms
+Frame 439 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.03119ms
+Frame 440 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.02431ms
+Frame 441 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.0159ms
+Frame 442 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.00846ms
+Frame 443 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.99714ms
+Frame 444 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.98641ms
+Frame 445 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.9999ms
+Frame 446 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.99148ms
+Frame 447 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.99371ms
+Frame 448 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.0425ms
+Frame 449 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.03415ms
+Frame 450 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.03958ms
+Frame 451 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.03172ms
+Frame 452 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.02369ms
+Frame 453 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.01422ms
+Frame 454 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.00459ms
+Frame 455 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.99513ms
+Frame 456 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.98818ms
+Frame 457 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.98035ms
+Frame 458 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.97461ms
+Frame 459 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.96737ms
+Frame 460 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.99331ms
+Frame 461 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.99526ms
+Frame 462 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.98653ms
+Frame 463 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.03597ms
+Frame 464 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.02829ms
+Frame 465 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.02023ms
+Frame 466 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.02233ms
+Frame 467 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.02003ms
+Frame 468 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.01806ms
+Frame 469 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.01663ms
+Frame 470 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.00677ms
+Frame 471 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.99746ms
+Frame 472 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.98996ms
+Frame 473 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.9852ms
+Frame 474 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.97605ms
+Frame 475 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.97531ms
+Frame 476 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.96827ms
+Frame 477 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.96666ms
+Frame 478 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.97039ms
+Frame 479 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.97387ms
+Frame 480 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 8.98019ms
+Frame 481 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.04106ms
+Frame 482 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.03273ms
+Frame 483 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.02845ms
+Frame 484 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.03257ms
+Frame 485 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.02877ms
+Frame 486 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.02386ms
+Frame 487 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.01754ms
+Frame 488 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.09256ms
+Frame 489 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.09762ms
+Frame 490 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.0929ms
+Frame 491 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.08919ms
+Frame 492 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.09839ms
+Frame 493 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.10302ms
+Frame 494 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.10288ms
+Frame 495 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.09721ms
+Frame 496 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.09569ms
+Frame 497 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.08667ms
+Frame 498 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.09496ms
+Frame 499 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.09198ms
+Frame 500 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.08607ms
+Frame 501 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.0858ms
+Frame 502 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.14171ms
+Frame 503 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.14063ms
+Frame 504 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.13457ms
+Frame 505 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.1301ms
+Frame 506 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.12726ms
+Frame 507 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.1219ms
+Frame 508 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.11444ms
+Frame 509 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.10536ms
+Frame 510 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.09962ms
+Frame 511 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.09102ms
+Frame 512 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.08364ms
+Frame 513 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.0772ms
+Frame 514 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.07736ms
+Frame 515 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.06897ms
+Frame 516 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.07575ms
+Frame 517 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.11498ms
+Frame 518 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.10963ms
+Frame 519 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.10422ms
+Frame 520 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.09591ms
+Frame 521 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.08767ms
+Frame 522 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.08207ms
+Frame 523 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.07879ms
+Frame 524 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.08577ms
+Frame 525 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.07761ms
+Frame 526 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.07041ms
+Frame 527 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.06201ms
+Frame 528 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.05301ms
+Frame 529 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.05293ms
+Frame 530 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.1023ms
+Frame 531 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.09997ms
+Frame 532 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.09502ms
+Frame 533 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.09969ms
+Frame 534 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.09081ms
+Frame 535 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.08757ms
+Frame 536 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.08138ms
+Frame 537 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.13617ms
+Frame 538 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.14372ms
+Frame 539 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.14168ms
+Frame 540 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.13321ms
+Frame 541 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.13132ms
+Frame 542 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.12319ms
+Frame 543 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.11746ms
+Frame 544 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.11178ms
+Frame 545 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.10441ms
+Frame 546 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.09482ms
+Frame 547 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.10309ms
+Frame 548 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.09493ms
+Frame 549 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.08523ms
+Frame 550 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.13309ms
+Frame 551 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.14394ms
+Frame 552 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.13988ms
+Frame 553 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.13275ms
+Frame 554 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.12415ms
+Frame 555 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.11533ms
+Frame 556 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.11518ms
+Frame 557 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.15188ms
+Frame 558 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.15889ms
+Frame 559 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.16596ms
+Frame 560 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.16542ms
+Frame 561 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.15928ms
+Frame 562 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.16237ms
+Frame 563 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.17348ms
+Frame 564 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.17216ms
+Frame 565 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.1632ms
+Frame 566 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.15575ms
+Frame 567 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.14619ms
+Frame 568 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.13918ms
+Frame 569 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.13447ms
+Frame 570 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.1655ms
+Frame 571 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.16212ms
+Frame 572 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.16357ms
+Frame 573 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.15708ms
+Frame 574 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.15238ms
+Frame 575 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.14651ms
+Frame 576 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.14079ms
+Frame 577 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.13222ms
+Frame 578 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.12729ms
+Frame 579 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.12274ms
+Frame 580 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.12796ms
+Frame 581 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.12017ms
+Frame 582 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.11237ms
+Frame 583 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.10492ms
+Frame 584 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.09975ms
+Frame 585 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.09446ms
+Frame 586 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.09589ms
+Frame 587 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.089ms
+Frame 588 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.12467ms
+Frame 589 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.13151ms
+Frame 590 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.12321ms
+Frame 591 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.11702ms
+Frame 592 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.11167ms
+Frame 593 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.11441ms
+Frame 594 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.10868ms
+Frame 595 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.10477ms
+Frame 596 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.1435ms
+Frame 597 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.14335ms
+Frame 598 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.14219ms
+Frame 599 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.13473ms
+Frame 600 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.12948ms
+Frame 601 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.12876ms
+Frame 602 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.12271ms
+Frame 603 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.11828ms
+Frame 604 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.15628ms
+Frame 605 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.1535ms
+Frame 606 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.14793ms
+Frame 607 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.1404ms
+Frame 608 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.13219ms
+Frame 609 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.13044ms
+Frame 610 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.12482ms
+Frame 611 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.12279ms
+Frame 612 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.15919ms
+Frame 613 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.1638ms
+Frame 614 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.16179ms
+Frame 615 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.15847ms
+Frame 616 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.16258ms
+Frame 617 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.15575ms
+Frame 618 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.14827ms
+Frame 619 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.13998ms
+Frame 620 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.19537ms
+Frame 621 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.18878ms
+Frame 622 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.18054ms
+Frame 623 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.17406ms
+Frame 624 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.16613ms
+Frame 625 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.16296ms
+Frame 626 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.16152ms
+Frame 627 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.15673ms
+Frame 628 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.14909ms
+Frame 629 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.18653ms
+Frame 630 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.1805ms
+Frame 631 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.18749ms
+Frame 632 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.18281ms
+Frame 633 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.18404ms
+Frame 634 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.18276ms
+Frame 635 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.17834ms
+Frame 636 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.17602ms
+Frame 637 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.17715ms
+Frame 638 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.17023ms
+Frame 639 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.20384ms
+Frame 640 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.20144ms
+Frame 641 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.19432ms
+Frame 642 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.18728ms
+Frame 643 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.18674ms
+Frame 644 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.17917ms
+Frame 645 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.176ms
+Frame 646 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.17143ms
+Frame 647 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.16692ms
+Frame 648 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.1601ms
+Frame 649 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.20018ms
+Frame 650 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.20033ms
+Frame 651 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.19285ms
+Frame 652 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.19769ms
+Frame 653 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.19206ms
+Frame 654 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.18407ms
+Frame 655 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.18385ms
+Frame 656 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.17909ms
+Frame 657 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.17547ms
+Frame 658 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.17781ms
+Frame 659 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.21919ms
+Frame 660 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.22706ms
+Frame 661 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.2206ms
+Frame 662 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.21428ms
+Frame 663 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.21064ms
+Frame 664 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.21904ms
+Frame 665 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.21312ms
+Frame 666 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.21ms
+Frame 667 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.20379ms
+Frame 668 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.19919ms
+Frame 669 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.19186ms
+Frame 670 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.22926ms
+Frame 671 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.23116ms
+Frame 672 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.23008ms
+Frame 673 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.23233ms
+Frame 674 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.2373ms
+Frame 675 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.23612ms
+Frame 676 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.23374ms
+Frame 677 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.23656ms
+Frame 678 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.23493ms
+Frame 679 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.23202ms
+Frame 680 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.28323ms
+Frame 681 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.28858ms
+Frame 682 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.28293ms
+Frame 683 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.28567ms
+Frame 684 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.28309ms
+Frame 685 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.27813ms
+Frame 686 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.27496ms
+Frame 687 end
+DEBUG TrackRGBD: depth=[640 x 480] type=2 rgb=[640 x 480]
+Average processing time of GrabImageRGBD(): 9.26987ms
+Frame 688 end

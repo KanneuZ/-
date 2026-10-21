@@ -1,0 +1,4 @@
+# Данные не коммитим — слишком большие. Только README со ссылками.
+datasets/*/
+!datasets/README.md
+*.tar.gz
