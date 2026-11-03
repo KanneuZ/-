@@ -48,14 +48,3 @@
 ### apartment
 python3 scripts/run_apartment_pipeline.sh
 ./Examples/RGB-D/rgbd_tum ./Vocabulary/ORBvoc.txt configs/apartment_midas.yaml <dataset>/apartment <dataset>/apartment/assoc.txt
-
-## Метрики (evo_ape tum --align)
-
-| Датасет | Кадров | Синхр. | ATE RMSE (м) | Файл |
-|---|---|---|---|---|
-| TUM fr1_xyz | 798 | 798/798 | 0.0108 | results/evo_ape_fr1_xyz.txt |
-| TUM fr3_walking_xyz | 827 | 827/827 | 0.0156 | results/evo_ape_fr3_walking_xyz.txt |
-| TUM fr2_xyz | 3665 | 124/2000 | 0.365 | results/evo_ape_fr2_xyz.txt |
-| Replica room1 | 2000 | — | — | (перезапуск) |
-| Replica office0_small | 2000 | — | — | (перезапуск) |
-| apartment | 341 | — | — | упал на кадре 9 (MiDaS) |
