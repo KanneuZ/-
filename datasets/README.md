@@ -1,7 +1,7 @@
 # Датасеты
 
 ## Своя съёмка (apartment)
-- Исходное видео `apartment.MTS`: <ссылка на Google Drive>
+- Исходное видео `apartment.MTS`: <[ссылка на Google Drive](https://drive.google.com/drive/u/0/folders/1RBqJa6olO_uuUW3eam_y1IdQDrmR_s7X)>
 - TUM-датасет (rgb + MiDaS-depth + assoc.txt, ~1.5 ГБ): <ссылка>
 - Ground truth: `../gt/apartment_gt.txt`
 
