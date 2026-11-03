@@ -2,7 +2,7 @@
 
 ## Своя съёмка (apartment)
 - Исходное видео `apartment.MTS`: <ссылка на Google Drive>
-- TUM-датасет (rgb + MiDaS-depth + assoc.txt, ~1.5 ГБ): <вставь ссылку>
+- TUM-датасет (rgb + MiDaS-depth + assoc.txt, ~1.5 ГБ): <ссылка>
 - Ground truth: `../gt/apartment_gt.txt`
 
 ## TUM RGB-D (скачать самостоятельно)
