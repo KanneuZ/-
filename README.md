@@ -1,4 +1,4 @@
-# NGD-SLAM: структура репозитория
+# Структура репозитория:
 
 ## configs/
 - `Replica_office0.yaml` — Replica room1 (1200x680, fx=fy=600, cx=599.5, cy=339.5)
@@ -28,7 +28,7 @@
 ## datasets/
 - `README.md` — ссылки на скачивание (TUM, Replica, apartment). Сами данные не в репозитории.
 
-## Запуск
+## Запуск NGD-SLAM:
 
 ### TUM fr1_xyz
 ./Examples/RGB-D/rgbd_tum ./Vocabulary/ORBvoc.txt ./Examples/RGB-D/TUM1.yaml <dataset>/fr1_xyz <dataset>/fr1_xyz/assoc.txt
@@ -48,3 +48,6 @@
 ### apartment
 python3 scripts/run_apartment_pipeline.sh
 ./Examples/RGB-D/rgbd_tum ./Vocabulary/ORBvoc.txt configs/apartment_midas.yaml <dataset>/apartment <dataset>/apartment/assoc.txt
+
+## Запуск DPVO:
+
