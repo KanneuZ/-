@@ -20,34 +20,14 @@
 - `replica_room1_gt_tum_shifted.txt` — то же, сдвинуто под таймстампы SLAM
 
 ## results/
-- `ngd_*.log` — логи запусков NGD-SLAM
-- `traj_*.txt` — траектории (CameraTrajectory.txt)
-- `kf_*.txt` — keyframe-траектории (KeyFrameTrajectory.txt)
-- `evo_ape_*.txt` — метрики ATE (вывод evo_ape tum --align)
+Директории с результатами: 
+- `apartment/`
+- `Replica_office0_small/`
+- `Replica_room1/`
+- `TUM_fr1_xyz/`
+- `TUM_fr2_xyz/`
+- `TUM_fr3_walking_xyz/`
+- `README.md` — краткий вывод того, что получилось
 
 ## datasets/
 - `README.md` — ссылки на скачивание (TUM, Replica, apartment). Сами данные не в репозитории.
-
-## Запуск NGD-SLAM:
-
-### TUM fr1_xyz
-./Examples/RGB-D/rgbd_tum ./Vocabulary/ORBvoc.txt ./Examples/RGB-D/TUM1.yaml <dataset>/fr1_xyz <dataset>/fr1_xyz/assoc.txt
-
-### TUM fr3_walking_xyz
-./Examples/RGB-D/rgbd_tum ./Vocabulary/ORBvoc.txt ./Examples/RGB-D/TUM3.yaml <dataset>/fr3_walking_xyz <dataset>/fr3_walking_xyz/assoc.txt
-
-### TUM fr2_xyz
-./Examples/RGB-D/rgbd_tum ./Vocabulary/ORBvoc.txt ./Examples/RGB-D/TUM2.yaml <dataset>/fr2_xyz <dataset>/fr2_xyz/assoc.txt
-
-### Replica room1
-./Examples/RGB-D/rgbd_tum ./Vocabulary/ORBvoc.txt configs/Replica_office0.yaml <dataset>/replica_room1 <dataset>/replica_room1/assoc4.txt
-
-### Replica office0_small
-./Examples/RGB-D/rgbd_tum ./Vocabulary/ORBvoc.txt configs/Replica_office0_small.yaml <dataset>/replica_office0_small <dataset>/replica_office0_small/assoc4.txt
-
-### apartment
-python3 scripts/run_apartment_pipeline.sh
-./Examples/RGB-D/rgbd_tum ./Vocabulary/ORBvoc.txt configs/apartment_midas.yaml <dataset>/apartment <dataset>/apartment/assoc.txt
-
-## Запуск DPVO:
-
